@@ -10,7 +10,7 @@ import java.util.Random;
 public class GuessWhoAreThey {
     public static void main(String[] args) {
 
-        JFrame win = new JFrame("Guess who the lucky dogs are?   by kunihiro");
+        JFrame win = new JFrame("Guess who the they are?");
         win.setSize(450, 180);
         ImageIcon icon = new ImageIcon("icon.png");
         win.setIconImage(icon.getImage());
@@ -20,7 +20,7 @@ public class GuessWhoAreThey {
         win.add(panel);
         panel.setLayout(null);
 
-        JLabel text1 = new JLabel("×ÜÈËÊı :");
+        JLabel text1 = new JLabel("æ€»äººæ•° :");
         text1.setBounds(20, 20, 200, 25);
         text1.setFont(new Font("" , 0 , 18));
         panel.add(text1);
@@ -30,7 +30,7 @@ public class GuessWhoAreThey {
         userText.setBounds(90, 20, 30, 25);
         panel.add(userText);
 
-        JLabel text2 = new JLabel("³éÈ¡ÈËÊı :");
+        JLabel text2 = new JLabel("æŠ½å–äººæ•° :");
         text2.setBounds(20, 65, 230, 25);
         text2.setFont(new Font("" , 0 , 18));
         panel.add(text2);
@@ -72,7 +72,7 @@ public class GuessWhoAreThey {
                 num_win.add(num_panel);
                 num_panel.setLayout(null);
 
-                //£¨Ç¿ÁÒÇ´Ôğ¸ÄºÅÊıµÄĞĞÎª£©
+                //ï¼ˆå¼ºçƒˆè°´è´£æ”¹å·æ•°çš„è¡Œä¸ºï¼‰
                 JLabel a = new JLabel("RESULT :  ");
                 a.setBounds(20, 10, 150, 30);
                 Font font = new Font("", 0, 19);
