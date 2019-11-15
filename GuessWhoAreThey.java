@@ -10,10 +10,8 @@ import java.util.Random;
 public class GuessWhoAreThey {
     public static void main(String[] args) {
 
-        JFrame win = new JFrame("Guess who the they are?");
+        JFrame win = new JFrame("Guess who are they?");
         win.setSize(450, 180);
-        ImageIcon icon = new ImageIcon("icon.png");
-        win.setIconImage(icon.getImage());
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel();
@@ -65,7 +63,6 @@ public class GuessWhoAreThey {
 
                 JFrame num_win = new JFrame("RESULT");
                 num_win.setSize(650 , 400);
-                num_win.setIconImage(icon.getImage());
                 num_win.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
                 JPanel num_panel = new JPanel();
@@ -85,7 +82,7 @@ public class GuessWhoAreThey {
                 result.setBounds(20, 50, 590, 300);
                 Font font_t = new Font("", 0, 25);
                 result.setFont(font_t);
-                result.setEditable(false );
+                result.setEditable(false);
                 num_panel.add(result);
 
                 num_win.setVisible(true);
